@@ -20,9 +20,9 @@ fetch("https://randomuser.me/api/?results=50")
         insertText()
 
         // Search and filter not complete yet
-//        let searchBtn= document.getElementById("search")
-//        searchBtn.onclick= (event)=>{
-//            event.preventDefault()
+        let searchBtn= document.getElementById("search")
+        searchBtn.onclick= (event)=>{
+            event.preventDefault()
 //            profileContainer.innerHTML= ""
 //
 //            let searchText= document.getElementById("input")
@@ -36,7 +36,7 @@ fetch("https://randomuser.me/api/?results=50")
 //            }
 //
 //            insertText()
-//        }
+        }
 
         function insertText(){
             for (let i= 0; i< data.results.length; i ++){
